@@ -73,7 +73,7 @@ def my_mpl():
 
 
 MF_FN = "../np_files/mass_fns.npz"
-MF_FN_NEW = "../simplify/mass_fns.npz"
+MF_FN_NEW = "mass_fns.npz"
 
 # def load_mf(fn=MF_FN_NEW):
 #     mf = np.load(fn)

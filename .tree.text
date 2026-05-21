@@ -1,0 +1,2063 @@
+.
+├── 10-16-1.h5
+├── 10-16-2.h5
+├── 10-16-3.h5
+├── 10-22-1.h5
+├── 10-22-2.h5
+├── 10-22-3.h5
+├── 10-22-4.h5
+├── 10-22-5.h5
+├── 10-22-6.h5
+├── 10-23-10.h5
+├── 10-23-11.h5
+├── 10-23-1.h5
+├── 10-23-2.h5
+├── 10-23-3.h5
+├── 10-23-4.h5
+├── 10-23-5.h5
+├── 10-23-7.h5
+├── 10-23-8.h5
+├── 10-23-9.h5
+├── 10-9-1.h5
+├── 10-9-2.h5
+├── 10-9-3.h5
+├── 8-25-1.h5
+├── 8-26-1.h5
+├── 8-26-2.h5
+├── 8-26-3.h5
+├── 8-26-4.h5
+├── 8-26-5.h5
+├── 8-27-1.h5
+├── 8-28-1.h5
+├── 8-28-2.h5
+├── 8-28-3.h5
+├── 8-28-4.h5
+├── 8-28-5.h5
+├── 8-28-6.h5
+├── 9-15-1.h5
+├── 9-15-2.h5
+├── 9-15-3.h5
+├── 9-24-1.h5
+├── 9-28-4.h5
+├── 9-28-5.h5
+├── 9-28-6.h5
+├── 9-28-7.h5
+├── 9-8-1.h5
+├── 9-8-2.h5
+├── 9-8-3.h5
+├── 9-8-4.h5
+├── 9-8-5.h5
+├── 9-8-6.h5
+├── AstroCLF
+├── Bouwens_2015_Table5.txt
+├── Bouwens_2021_Table4.txt
+├── calc_fstar.py
+├── calc_xi.py
+├── create_dpdl.py
+├── create_mf.py
+├── create_phis.py
+├── create_pts_errs_15.py
+├── create_pts_errs_21.py
+├── create_pts_errs_22.py
+├── create_pts_errs_22_wo_z6M1525.py
+├── digitized_plots
+│   ├── Ma18_fig4
+│   │   ├── Ma18_fig4_z10_lower.csv
+│   │   ├── Ma18_fig4_z10_upper.csv
+│   │   ├── Ma18_fig4_z6_lower.csv
+│   │   ├── Ma18_fig4_z6_upper.csv
+│   │   ├── Ma18_fig4_z8_lower.csv
+│   │   └── Ma18_fig4_z8_upper.csv
+│   ├── SF_fig1
+│   │   ├── SF_fig1_6cor.csv
+│   │   ├── SF_fig1_6un.csv
+│   │   ├── SF_fig1_8cor.csv
+│   │   └── SF_fig1_8un.csv
+│   ├── SF_fig10
+│   │   ├── SunFurlanetto_Fig10.1_model3.csv
+│   │   └── SunFurlanetto_Fig10.1_zind.csv
+│   └── SF_fig2
+│       ├── SF_fig2_6.csv
+│       ├── SF_fig2_8.csv
+│       └── SunFurlanetto_Fig2_zind.csv
+├── dust_correction.py
+├── environment.yml
+├── inputs_for_phi.py
+├── ionized_fraction.py
+├── jobs
+│   ├── job_collapse.sh
+│   ├── job\ copy.mc_flat_trunc
+│   ├── job.dpdl
+│   ├── job.flat
+│   ├── job.fstar
+│   ├── job.jup
+│   ├── job_likelihood.sh
+│   ├── job_marsh.sh
+│   ├── job.mc
+│   ├── job.mc_fdm
+│   ├── job.mc_fduty
+│   ├── job.mc_flat_trunc
+│   ├── job_mc_generic.sh
+│   ├── job.mc_scatter
+│   ├── job.mc_scatter_step
+│   ├── job.mc_sd_flat
+│   ├── job.mc_sd_shallow
+│   ├── job.mc_shallow
+│   ├── job.mf
+│   ├── job.project_mcmc
+│   ├── test.mcmc_generic.err
+│   └── test.mcmc_generic.out
+├── make_webb_pts_B.py
+├── make_webb_pts_FIXED.py
+├── make_webb_pts.py
+├── make_webb_pts_redux\ copy.py
+├── make_webb_pts_redux.py
+├── myfuncs.py
+├── notebooks
+│   ├── 4-25_constraints_plot.ipynb
+│   ├── Bozek15_Fig1.csv
+│   ├── figs
+│   │   ├── best_fit2.pdf
+│   │   ├── best_fit.pdf
+│   │   ├── fit_vs_jwst.pdf
+│   │   ├── fstar_band_6.pdf
+│   │   ├── f_star-HaloMass.pdf
+│   │   ├── ionizing_obs_vs_total_fesc_cbrt.pdf
+│   │   ├── ionizing_obs_vs_total_fesc.pdf
+│   │   ├── ionizing_obs_vs_total_fesc_sqrt.pdf
+│   │   ├── ionizing_obs_vs_total.pdf
+│   │   ├── Luminosity-HaloMass.pdf
+│   │   ├── mcmc_15+22dc.pdf
+│   │   ├── N_dot_ion.pdf
+│   │   ├── neutral_fraction.pdf
+│   │   ├── rho_UV.pdf
+│   │   ├── tau_es.pdf
+│   │   ├── xi_euler.pdf
+│   │   ├── xi_z_fesc_cbrt.pdf
+│   │   ├── xi_z_fesc.pdf
+│   │   ├── xi_z_fesc_sqrt.pdf
+│   │   └── xi_z.pdf
+│   ├── Marsh_Silk_2014_Fig5_4th_curve.csv
+│   ├── Marsh_Silk_2014_Fig5.csv
+│   ├── newfdm2_shallowing.ipynb
+│   ├── newfdm3.1_interpolation2.ipynb
+│   ├── newfdm3.2_interpolation3.ipynb
+│   ├── newfdm3.3_m20.ipynb
+│   ├── newfdm3_interpolation.ipynb
+│   ├── newfdm4.1_implications.ipynb
+│   ├── newfdm4.2_capf_and_asym_err.ipynb
+│   ├── newfdm4.3_upperlim.ipynb
+│   ├── newfdm4_monte.ipynb
+│   ├── newfdm5_refine.ipynb
+│   ├── newfdm6.1_jan6.ipynb
+│   ├── newfdm6_jan9.ipynb
+│   ├── old_nbs
+│   │   ├── agn_feedback2.ipynb
+│   │   ├── agn_feedback.ipynb
+│   │   ├── best_fit1.2.pdf
+│   │   ├── best_fit_20down.pdf
+│   │   ├── best_fit_20up.pdf
+│   │   ├── best_fit.pdf
+│   │   ├── best_fit_plus_20.pdf
+│   │   ├── corner.pdf
+│   │   ├── cross_check2_fstar.ipynb
+│   │   ├── cross_check.ipynb
+│   │   ├── fdm2.ipynb
+│   │   ├── fdm_mcmc.ipynb
+│   │   ├── filename.pickle
+│   │   ├── fstar2_bands_and_flattening.ipynb
+│   │   ├── fstar.ipynb
+│   │   ├── f_star.pdf
+│   │   ├── investigate_mf.ipynb
+│   │   ├── investigate_mf-Pk.ipynb
+│   │   ├── LM_relation_w_SFR.pdf
+│   │   ├── mass_fns_new.npz
+│   │   ├── mcmc2-off_phis-Copy1.ipynb
+│   │   ├── mcmc2-off_phis.ipynb
+│   │   ├── mcmc3-b22-Copy1.ipynb
+│   │   ├── mcmc3-b22.ipynb
+│   │   ├── mcmc4.1_allpts2.ipynb
+│   │   ├── mcmc4.2_allpts_cleanup.ipynb
+│   │   ├── mcmc4_allpts.ipynb
+│   │   ├── mcmc5.1_webb.ipynb
+│   │   ├── mcmc5_dust_cor.ipynb
+│   │   ├── mcmc-Copy1.ipynb
+│   │   ├── mcmc.ipynb
+│   │   ├── new_fdm.ipynb
+│   │   ├── new_mcmc.ipynb
+│   │   ├── old_mf_sigma.npz
+│   │   ├── redo_mass_function.ipynb
+│   │   ├── revised_up_meas.npz
+│   │   ├── rho_SFR.ipynb
+│   │   ├── sfe_phi3.1_truncating2.ipynb
+│   │   ├── sfe_phi3_truncating.ipynb
+│   │   ├── sfe_phi_relation2.1_varFlatten.ipynb
+│   │   ├── sfe_phi_relation2.ipynb
+│   │   └── sfe_phi_relation.ipynb
+│   ├── sfe10.ipynb
+│   ├── sfe_phi3.2_investigate_asymmetric.ipynb
+│   ├── sfe_phi3.3_investigate_asymmetric2.ipynb
+│   ├── sfe_phi3.4_flat_trunc_redux.ipynb
+│   ├── sharp-k2-4-15.ipynb
+│   ├── sharp-k.ipynb
+│   ├── shifter.ipynb
+│   ├── simplify10_run.ipynb
+│   ├── simplify2.ipynb
+│   ├── simplify3_scaling.ipynb
+│   ├── simplify4_wrapup.ipynb
+│   ├── simplify5_refining.ipynb
+│   ├── simplify6_alternative.ipynb
+│   ├── simplify7_mcmc.ipynb
+│   ├── simplify8_diffeq.ipynb
+│   ├── simplify9_actuallywrap.ipynb
+│   ├── spherical_collapse.ipynb
+│   ├── SR_curves_data.csv
+│   ├── SR_curves_pareto.csv
+│   ├── SR.log
+│   ├── symbolic.ipynb
+│   ├── test.pdf
+│   ├── test_shift.npz
+│   ├── test_simplify.ipynb
+│   ├── xi2.1_rerun_w_xi_euler_calls_xi_redux.ipynb
+│   ├── xi2.ipynb
+│   └── xi.ipynb
+├── np_files
+├── npz_to_hdf5.py
+├── one_d_spherical_collapse
+│   └── one-d-spherical-collapse-of-fuzzy-dark-matter
+│       ├── _archive
+│       │   ├── ~
+│       │   │   └── one_d_spherical_collapse
+│       │   │       └── one-d-spherical-collapse-of-fuzzy-dark-matter
+│       │   │           └── notebooks
+│       │   │               ├── test_run_1e3.h5
+│       │   │               ├── test_run_gamma_minus_2_5_1_3.h5
+│       │   │               ├── test_run_gamma_minus_2_5.h5
+│       │   │               └── test_run.h5
+│       │   ├── 7-31-10.h5
+│       │   ├── 7-31-11.h5
+│       │   ├── 7-31-1.h5
+│       │   ├── 7-31-2.h5
+│       │   ├── 7-31-3.h5
+│       │   ├── 7-31-4.h5
+│       │   ├── 7-31-5.h5
+│       │   ├── 7-31-6.h5
+│       │   ├── 7-31-7.h5
+│       │   ├── 7-31-8.h5
+│       │   ├── 7-31-9.h5
+│       │   ├── 8-1-1.h5
+│       │   ├── 8-19-1.h5
+│       │   ├── 8-4-1.h5
+│       │   ├── 8-4-2.h5
+│       │   ├── 8-5-1.h5
+│       │   ├── 8-5-2.h5
+│       │   ├── 8-5-3.h5
+│       │   ├── 8-5-4.h5
+│       │   ├── 8-5-5.h5
+│       │   ├── 8-6-1.h5
+│       │   ├── 8-6-2.h5
+│       │   ├── 8-6-3.h5
+│       │   ├── 8-6-4.h5
+│       │   ├── 8-8-1.h5
+│       │   ├── 8-8-2.h5
+│       │   ├── 8-8-3.h5
+│       │   ├── black_hole_10k.h5
+│       │   ├── example_run.py
+│       │   ├── notebooks
+│       │   │   ├── ~
+│       │   │   │   └── one_d_spherical_collapse
+│       │   │   │       └── one-d-spherical-collapse-of-fuzzy-dark-matter
+│       │   │   ├── 9-7-2.h5
+│       │   │   ├── 9-7-3.h5
+│       │   │   ├── 9-7-4.h5
+│       │   │   ├── 9-7-5.h5
+│       │   │   ├── 9-7-6.h5
+│       │   │   ├── cdm_fdm.ipynb
+│       │   │   ├── collapse_derivatives.ipynb
+│       │   │   ├── collapse_neighbor_pressure.ipynb
+│       │   │   ├── collapse_pressure.ipynb
+│       │   │   ├── collapse_sb3.ipynb
+│       │   │   ├── collapse_sb4_self_similar.ipynb
+│       │   │   ├── collapse_sb5_redux.ipynb
+│       │   │   ├── collapse_show.ipynb
+│       │   │   ├── create_mf.py
+│       │   │   ├── example.ipynb
+│       │   │   ├── figures
+│       │   │   ├── job_run.sh
+│       │   │   ├── json_err_locator.py
+│       │   │   ├── old
+│       │   │   │   ├── collapse_sb1.ipynb
+│       │   │   │   ├── collapse_sb2.ipynb
+│       │   │   │   └── collapse_sb3\ copy.ipynb
+│       │   │   ├── py38.ipynb
+│       │   │   ├── r_t.pdf
+│       │   │   ├── run_no_notebook.py
+│       │   │   ├── runs
+│       │   │   ├── stats
+│       │   │   ├── symplectic2.ipynb
+│       │   │   ├── symplectic5.ipynb
+│       │   │   ├── symplectic5.ipynb.bak
+│       │   │   ├── symplectic5.ipynb.bkup
+│       │   │   ├── symplectic.ipynb
+│       │   │   ├── temp.ipynb
+│       │   │   ├── test.1k4k3e1.err
+│       │   │   ├── test.1k4k3e1.out
+│       │   │   ├── thesis
+│       │   │   │   ├── fdm_traj.pdf
+│       │   │   │   └── kepler_not_symplectic.h5
+│       │   │   ├── thesis_plots2.ipynb
+│       │   │   └── thesis_plots.ipynb
+│       │   ├── __pycache__
+│       │   │   └── run_simulation_standalone.cpython-37.pyc
+│       │   ├── README.md
+│       │   ├── r_t.pdf
+│       │   ├── runs
+│       │   │   ├── 10k1k.h5
+│       │   │   ├── 1k4k3e1.h5
+│       │   │   ├── 1k4kdc.h5
+│       │   │   ├── 1k4ks3.h5
+│       │   │   ├── 716-1.h5
+│       │   │   ├── 716-2.h5
+│       │   │   ├── 716-3.h5
+│       │   │   ├── 716-4.h5
+│       │   │   ├── 716-5.h5
+│       │   │   ├── 716-6.h5
+│       │   │   ├── 716-7.h5
+│       │   │   ├── 716-8.h5
+│       │   │   ├── 720-1.h5
+│       │   │   ├── 720-2.h5
+│       │   │   ├── 720-3.h5
+│       │   │   ├── 720-4.h5
+│       │   │   ├── 720-5.h5
+│       │   │   ├── 723-0.h5
+│       │   │   ├── 723-1.h5
+│       │   │   ├── 723-2.h5
+│       │   │   ├── 723-3.h5
+│       │   │   ├── 723-4.h5
+│       │   │   ├── 723-5.h5
+│       │   │   ├── 723-6.h5
+│       │   │   ├── 723-7.h5
+│       │   │   ├── 723-8.h5
+│       │   │   ├── 724-1.h5
+│       │   │   ├── 724-2.h5
+│       │   │   ├── 724-3.h5
+│       │   │   ├── 725-1.h5
+│       │   │   ├── 727-1.h5
+│       │   │   ├── 729-1.h5
+│       │   │   ├── 729-2.h5
+│       │   │   ├── 730-1.h5
+│       │   │   └── 730-2.h5
+│       │   ├── run_simulation_standalone.py
+│       │   ├── scripts
+│       │   │   └── old
+│       │   │       ├── collapse.py
+│       │   │       └── job_collapse.sh
+│       │   ├── smooth_density_analysis.py
+│       │   ├── smoothing_analysis_cell.py
+│       │   ├── src
+│       │   │   ├── analtyic_formulas.py
+│       │   │   ├── configs
+│       │   │   │   ├── config_10.json
+│       │   │   │   ├── config_11.json
+│       │   │   │   ├── config_12.json
+│       │   │   │   ├── config_13.json
+│       │   │   │   ├── config_14.json
+│       │   │   │   ├── config_15.json
+│       │   │   │   ├── config_16.json
+│       │   │   │   ├── config_17.json
+│       │   │   │   ├── config_18.json
+│       │   │   │   ├── config_19.json
+│       │   │   │   ├── config_1.json
+│       │   │   │   ├── config_20.json
+│       │   │   │   ├── config_21.json
+│       │   │   │   ├── config_22.json
+│       │   │   │   ├── config_23.json
+│       │   │   │   ├── config_24.json
+│       │   │   │   ├── config_25.json
+│       │   │   │   ├── config_26.json
+│       │   │   │   ├── config_27.json
+│       │   │   │   ├── config_28.json
+│       │   │   │   ├── config_29.json
+│       │   │   │   ├── config_2.json
+│       │   │   │   ├── config_30.json
+│       │   │   │   ├── config_31.json
+│       │   │   │   ├── config_32.json
+│       │   │   │   ├── config_33.json
+│       │   │   │   ├── config_34.json
+│       │   │   │   ├── config_35.json
+│       │   │   │   ├── config_36.json
+│       │   │   │   ├── config_37.json
+│       │   │   │   ├── config_38.json
+│       │   │   │   ├── config_39.json
+│       │   │   │   ├── config_3.json
+│       │   │   │   ├── config_40.json
+│       │   │   │   ├── config_41.json
+│       │   │   │   ├── config_42.json
+│       │   │   │   ├── config_43.json
+│       │   │   │   ├── config_44.json
+│       │   │   │   ├── config_45.json
+│       │   │   │   ├── config_46.json
+│       │   │   │   ├── config_47.json
+│       │   │   │   ├── config_48.json
+│       │   │   │   ├── config_49.json
+│       │   │   │   ├── config_4.json
+│       │   │   │   ├── config_50.json
+│       │   │   │   ├── config_51.json
+│       │   │   │   ├── config_52.json
+│       │   │   │   ├── config_53.json
+│       │   │   │   ├── config_54.json
+│       │   │   │   ├── config_5.json
+│       │   │   │   ├── config_6.json
+│       │   │   │   ├── config_7.json
+│       │   │   │   ├── config_8.json
+│       │   │   │   └── config_9.json
+│       │   │   ├── generate_configs.py
+│       │   │   ├── logs
+│       │   │   │   ├── sim_10_543495.err
+│       │   │   │   ├── sim_10_543495.out
+│       │   │   │   ├── sim_11_543496.err
+│       │   │   │   ├── sim_11_543496.out
+│       │   │   │   ├── sim_12_543497.err
+│       │   │   │   ├── sim_12_543497.out
+│       │   │   │   ├── sim_13_543498.err
+│       │   │   │   ├── sim_13_543498.out
+│       │   │   │   ├── sim_14_543499.err
+│       │   │   │   ├── sim_14_543499.out
+│       │   │   │   ├── sim_1_543505.err
+│       │   │   │   ├── sim_1_543505.out
+│       │   │   │   ├── sim_15_543500.err
+│       │   │   │   ├── sim_15_543500.out
+│       │   │   │   ├── sim_16_543501.err
+│       │   │   │   ├── sim_16_543501.out
+│       │   │   │   ├── sim_17_543502.err
+│       │   │   │   ├── sim_17_543502.out
+│       │   │   │   ├── sim_18_543503.err
+│       │   │   │   ├── sim_18_543503.out
+│       │   │   │   ├── sim_19_543504.err
+│       │   │   │   ├── sim_19_543504.out
+│       │   │   │   ├── sim_20_543506.err
+│       │   │   │   ├── sim_20_543506.out
+│       │   │   │   ├── sim_21_543507.err
+│       │   │   │   ├── sim_21_543507.out
+│       │   │   │   ├── sim_22_543508.err
+│       │   │   │   ├── sim_22_543508.out
+│       │   │   │   ├── sim_23_543509.err
+│       │   │   │   ├── sim_23_543509.out
+│       │   │   │   ├── sim_24_543510.err
+│       │   │   │   ├── sim_24_543510.out
+│       │   │   │   ├── sim_2_543516.err
+│       │   │   │   ├── sim_2_543516.out
+│       │   │   │   ├── sim_25_543511.err
+│       │   │   │   ├── sim_25_543511.out
+│       │   │   │   ├── sim_26_543512.err
+│       │   │   │   ├── sim_26_543512.out
+│       │   │   │   ├── sim_27_543513.err
+│       │   │   │   ├── sim_27_543513.out
+│       │   │   │   ├── sim_28_543514.err
+│       │   │   │   ├── sim_28_543514.out
+│       │   │   │   ├── sim_29_543515.err
+│       │   │   │   ├── sim_29_543515.out
+│       │   │   │   ├── sim_30_543517.err
+│       │   │   │   ├── sim_30_543517.out
+│       │   │   │   ├── sim_31_543518.err
+│       │   │   │   ├── sim_31_543518.out
+│       │   │   │   ├── sim_32_543519.err
+│       │   │   │   ├── sim_32_543519.out
+│       │   │   │   ├── sim_33_543520.err
+│       │   │   │   ├── sim_33_543520.out
+│       │   │   │   ├── sim_34_543521.err
+│       │   │   │   ├── sim_34_543521.out
+│       │   │   │   ├── sim_3_543527.err
+│       │   │   │   ├── sim_3_543527.out
+│       │   │   │   ├── sim_35_543522.err
+│       │   │   │   ├── sim_35_543522.out
+│       │   │   │   ├── sim_36_543523.err
+│       │   │   │   ├── sim_36_543523.out
+│       │   │   │   ├── sim_37_543524.err
+│       │   │   │   ├── sim_37_543524.out
+│       │   │   │   ├── sim_38_543525.err
+│       │   │   │   ├── sim_38_543525.out
+│       │   │   │   ├── sim_39_543526.err
+│       │   │   │   ├── sim_39_543526.out
+│       │   │   │   ├── sim_40_543528.err
+│       │   │   │   ├── sim_40_543528.out
+│       │   │   │   ├── sim_41_543529.err
+│       │   │   │   ├── sim_41_543529.out
+│       │   │   │   ├── sim_42_543530.err
+│       │   │   │   ├── sim_42_543530.out
+│       │   │   │   ├── sim_43_543531.err
+│       │   │   │   ├── sim_43_543531.out
+│       │   │   │   ├── sim_44_543532.err
+│       │   │   │   ├── sim_44_543532.out
+│       │   │   │   ├── sim_4_543538.err
+│       │   │   │   ├── sim_4_543538.out
+│       │   │   │   ├── sim_45_543533.err
+│       │   │   │   ├── sim_45_543533.out
+│       │   │   │   ├── sim_46_543534.err
+│       │   │   │   ├── sim_46_543534.out
+│       │   │   │   ├── sim_47_543535.err
+│       │   │   │   ├── sim_47_543535.out
+│       │   │   │   ├── sim_48_543536.err
+│       │   │   │   ├── sim_48_543536.out
+│       │   │   │   ├── sim_49_543537.err
+│       │   │   │   ├── sim_49_543537.out
+│       │   │   │   ├── sim_50_543539.err
+│       │   │   │   ├── sim_50_543539.out
+│       │   │   │   ├── sim_51_543540.err
+│       │   │   │   ├── sim_51_543540.out
+│       │   │   │   ├── sim_52_543541.err
+│       │   │   │   ├── sim_52_543541.out
+│       │   │   │   ├── sim_53_543542.err
+│       │   │   │   ├── sim_53_543542.out
+│       │   │   │   ├── sim_54_543543.err
+│       │   │   │   ├── sim_54_543543.out
+│       │   │   │   ├── sim_5_543544.err
+│       │   │   │   ├── sim_5_543544.out
+│       │   │   │   ├── sim_6_543545.err
+│       │   │   │   ├── sim_6_543545.out
+│       │   │   │   ├── sim_7_543546.err
+│       │   │   │   ├── sim_7_543546.out
+│       │   │   │   ├── sim_8_543547.err
+│       │   │   │   ├── sim_8_543547.out
+│       │   │   │   ├── sim_9_543548.err
+│       │   │   │   └── sim_9_543548.out
+│       │   │   ├── __pycache__
+│       │   │   │   ├── analtyic_formulas.cpython-37.pyc
+│       │   │   │   ├── collapse.cpython-37.pyc
+│       │   │   │   ├── __init__.cpython-37.pyc
+│       │   │   │   ├── plotting.cpython-37.pyc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1001.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1001.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1672.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1672.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1672.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1692.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1692.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1692.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1695.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1695.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1695.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1698.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1698.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1700.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1700.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1700.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1701.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1701.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1701.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1703.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1703.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1703.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1706.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1706.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1706.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1789.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1789.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1791.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1791.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1791.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1898.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1898.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1900.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1900.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1901.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1901.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1930.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-1930.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-2036.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-2036.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1718.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1718.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1718.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1719.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1719.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1721.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1721.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1721.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1724.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1724.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-1724.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-2385.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross2-2385.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-2367.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_cross-2367.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1716.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1716.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1719.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1719.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1719.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1736.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1736.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1736.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1737.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1737.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1739.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1739.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1739.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1742.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1742.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1742.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1827.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_crossa-1827.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_doublecross-2114.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_doublecross-2114.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_doublecross-2148.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_doublecross-2148.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_doublecross-2348.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_doublecross-2348.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1001.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1001.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1020.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1020.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1022.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1022.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1025.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1025.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1045.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1045.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1071.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1071.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1072.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1072.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1114.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1114.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1114.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1157.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1157.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1170.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1170.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1171.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1171.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1172.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1172.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1227.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1227.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1227.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1237.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1237.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1250.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1250.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1250.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1266.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1266.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1283.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1283.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1283.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1286.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1286.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1286.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1288.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1288.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1292.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1292.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1293.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1293.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1293.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1316.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1316.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1316.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1333.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1333.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1333.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1346.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1346.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1346.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1364.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1364.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1365.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1365.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1365.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1384.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1384.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1385.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1385.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1387.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1387.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1388.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1388.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1388.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1405.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1405.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1413.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1413.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1434.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1434.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1434.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1435.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1435.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1435.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1444.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1444.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1447.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1447.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1447.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1457.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1457.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1457.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1490.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1490.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1491.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1491.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1492.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1492.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1519.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1519.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1519.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1544.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1544.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1544.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1554.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1554.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1588.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1588.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1588.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1604.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1604.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1604.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1624.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1624.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1624.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1627.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1627.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1627.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1630.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1630.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1632.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1632.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1632.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1633.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1633.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1633.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1635.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1635.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1635.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1643.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1643.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1650.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1650.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1651.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1651.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1655.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1655.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1665.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1665.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1676.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1676.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1715.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1715.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1717.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1717.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1717.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1719.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1719.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1737.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1737.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1741.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1741.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1742.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1742.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1811.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1811.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1813.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1813.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1814.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1814.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1817.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1817.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1818.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1818.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1823.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1823.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1824.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1824.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1824.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1825.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1825.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1826.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1826.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1826.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1827.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1827.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1827.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1855.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1855.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1855.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1856.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1856.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1857.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1857.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1858.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1858.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1885.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1885.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1886.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1886.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1916.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1916.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1917.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1917.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1947.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1947.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1952.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-1952.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-933.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-933.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-937.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-937.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-939.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-939.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-939.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-954.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-954.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-998.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_dyn-998.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_ref-981.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_ref-981.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1036.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1036.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1039.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1039.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1058.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1058.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1060.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1060.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1063.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1063.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1083.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1083.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1109.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1109.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1110.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1110.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1152.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1152.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1152.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1195.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1195.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1208.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1208.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1288.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-1288.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-971.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-971.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-975.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-975.py37m.nbi
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-977.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.calculate_t_rmin-977.py37m.nbi
+│       │   │   │   ├── simulation_strategies.CorrectedVerletStepper._velocity_verlet_numba-653.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.CorrectedVerletStepper._velocity_verlet_numba-653.py37m.nbi
+│       │   │   │   ├── simulation_strategies.cpython-37.pyc
+│       │   │   │   ├── simulation_strategies.EulerStepper._euler_numba-650.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.EulerStepper._euler_numba-650.py37m.nbi
+│       │   │   │   ├── simulation_strategies.EulerStepper._euler_update_v_numba-655.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.EulerStepper._euler_update_v_numba-655.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1559.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1559.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1577.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1577.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1590.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1590.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1592.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1592.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1593.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1593.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1595.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1595.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1595.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1596.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1596.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1597.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1597.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1598.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1598.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1607.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1607.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1617.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1617.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1631.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1631.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1633.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1633.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1639.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1639.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1640.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1640.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1641.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1641.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1643.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1643.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1644.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1644.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1644.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1645.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1645.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1645.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1651.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1651.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1664.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1664.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1664.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1687.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1687.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1691.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1691.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1691.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1692.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1692.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1692.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1694.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1694.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1694.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1695.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1695.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1696.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1696.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1697.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1697.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1698.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1698.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1707.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1707.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1711.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1711.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1729.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1729.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1730.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1730.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1735.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1735.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1773.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1773.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1774.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1774.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1801.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1801.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1835.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1835.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InclusiveEnclosedMassStrategy._m_enc_inclusive_numba-1835.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-444.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-444.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-462.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-462.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-464.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-464.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-465.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-465.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-467.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-467.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-467.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-468.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-468.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-469.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-469.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-469.py37m.nbi
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-470.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.InnerNotZeroShellVolumeStrategy._inner_not_zero_shell_volume_numba-470.py37m.nbi
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2098.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2098.py37m.nbi
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2132.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2132.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2132.py37m.3.nbc
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2132.py37m.4.nbc
+│       │   │   │   ├── simulation_strategies.KernelEnclosedMassStrategy._m_enc_kernel_numba-2132.py37m.nbi
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1672.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1672.py37m.nbi
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1694.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1694.py37m.nbi
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1822.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1822.py37m.nbi
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1884.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.NeighborEnclosedMassStrategy._m_enc_neighbor_numba-1884.py37m.nbi
+│       │   │   │   ├── simulation_strategies.OverlapInclusiveEnclosedMassStrategy._m_enc_overlap_inclusive_numba-1829.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.OverlapInclusiveEnclosedMassStrategy._m_enc_overlap_inclusive_numba-1829.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.OverlapInclusiveEnclosedMassStrategy._m_enc_overlap_inclusive_numba-1829.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-413.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-413.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-430.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-430.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-463.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-463.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-466.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-466.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-485.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-485.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-487.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-487.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-490.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-490.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-510.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-510.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-536.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-536.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-537.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-537.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-540.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-540.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-553.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-553.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-556.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-556.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-558.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-558.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-562.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-562.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-563.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-563.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-563.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-585.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-585.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-586.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-586.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-620.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-620.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-620.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-653.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-653.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-697.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-697.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-715.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-715.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-784.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-784.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-889.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_numba-889.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-418.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-418.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-435.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-435.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-468.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-468.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-471.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-471.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-490.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-490.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-492.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-492.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-495.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-495.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-515.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-515.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-541.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-541.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-542.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-542.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-545.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-545.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-558.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-558.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-561.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-561.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-563.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-563.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-567.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-567.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-568.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-568.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-568.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-590.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-590.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-591.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-591.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-625.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-625.py37m.2.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-625.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-658.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-658.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-702.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-702.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-720.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-720.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-789.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-789.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-894.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletStepper._velocity_verlet_update_v_numba-894.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletVariableDtStepper._velocity_verlet_numba-653.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletVariableDtStepper._velocity_verlet_numba-653.py37m.nbi
+│       │   │   │   ├── simulation_strategies.VelocityVerletVariableDtStepper._velocity_verlet_update_v_numba-658.py37m.1.nbc
+│       │   │   │   ├── simulation_strategies.VelocityVerletVariableDtStepper._velocity_verlet_update_v_numba-658.py37m.nbi
+│       │   │   │   ├── tests.cpython-37.pyc
+│       │   │   │   ├── tests.cpython-37-pytest-5.2.1.pyc
+│       │   │   │   └── utils.cpython-37.pyc
+│       │   │   ├── runs
+│       │   │   ├── run_simulation.py
+│       │   │   ├── simulation_strategies.py
+│       │   │   ├── submit_jobs.sh
+│       │   │   ├── test.json
+│       │   │   ├── test_outputs
+│       │   │   │   ├── energy_comparison_plots
+│       │   │   │   │   ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │   ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │   ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │   ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │   └── ode_solver
+│       │   │   │   │       ├── BDF
+│       │   │   │   │       │   ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_10_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_1_0.01.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_10_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │       │   └── energy_comparison_1_2_1_0.1.png
+│       │   │   │   │       ├── DOP853
+│       │   │   │   │       │   ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_10_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_1_0.01.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_10_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │       │   └── energy_comparison_1_2_1_0.1.png
+│       │   │   │   │       ├── LSODA
+│       │   │   │   │       │   ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_10_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_1_0.01.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_10_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │       │   └── energy_comparison_1_2_1_0.1.png
+│       │   │   │   │       ├── Radau
+│       │   │   │   │       │   ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_10_0_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_1_0.001.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_1_0.01.png
+│       │   │   │   │       │   ├── energy_comparison_1_0_10_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │       │   ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │       │   └── energy_comparison_1_2_1_0.1.png
+│       │   │   │   │       └── RK45
+│       │   │   │   │           ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │           ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │           ├── energy_comparison_10_0_1_0.1.png
+│       │   │   │   │           ├── energy_comparison_1_0_1_0.001.png
+│       │   │   │   │           ├── energy_comparison_1_0_1_0.01.png
+│       │   │   │   │           ├── energy_comparison_1_0_10_0.1.png
+│       │   │   │   │           ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │           ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │           └── energy_comparison_1_2_1_0.1.png
+│       │   │   │   ├── ode_solutions
+│       │   │   │   │   ├── ode_solution_BDF_0.1_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_BDF_1_0_0.1_0.1.npz
+│       │   │   │   │   ├── ode_solution_BDF_10_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_BDF_1_0_1_0.01.npz
+│       │   │   │   │   ├── ode_solution_BDF_1_0_10_0.1.npz
+│       │   │   │   │   ├── ode_solution_BDF_1_0.5_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_BDF_1_1_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_BDF_1_2_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_0.1_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_1_0_0.1_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_10_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_1_0_1_0.01.npz
+│       │   │   │   │   ├── ode_solution_DOP853_1_0_10_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_1_0.5_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_1_1_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_DOP853_1_2_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_0.1_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_1_0_0.1_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_10_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_1_0_1_0.01.npz
+│       │   │   │   │   ├── ode_solution_LSODA_1_0_10_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_1_0.5_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_1_1_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_LSODA_1_2_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_0.1_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_0_0.1_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_10_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_0_1_0.001.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_0_1_0.01.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_0_10_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_0.5_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_1_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_Radau_1_2_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_RK45_0.1_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_RK45_1_0_0.1_0.1.npz
+│       │   │   │   │   ├── ode_solution_RK45_10_0_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_RK45_1_0_1_0.001.npz
+│       │   │   │   │   ├── ode_solution_RK45_1_0_1_0.01.npz
+│       │   │   │   │   ├── ode_solution_RK45_1_0_10_0.1.npz
+│       │   │   │   │   ├── ode_solution_RK45_1_0.5_1_0.1.npz
+│       │   │   │   │   ├── ode_solution_RK45_1_1_1_0.1.npz
+│       │   │   │   │   └── ode_solution_RK45_1_2_1_0.1.npz
+│       │   │   │   ├── old
+│       │   │   │   │   ├── energy_comparison_plots
+│       │   │   │   │   │   ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │   │   ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │   │   ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │   │   ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │   │   └── ode_solver
+│       │   │   │   │   │       ├── energy_comparison_0.1_0_1_0.1.png
+│       │   │   │   │   │       ├── energy_comparison_1_0_0.1_0.1.png
+│       │   │   │   │   │       ├── energy_comparison_10_0_1_0.1.png
+│       │   │   │   │   │       ├── energy_comparison_1_0_1_0.001.png
+│       │   │   │   │   │       ├── energy_comparison_1_0_1_0.01.png
+│       │   │   │   │   │       ├── energy_comparison_1_0_10_0.1.png
+│       │   │   │   │   │       ├── energy_comparison_1_0.5_1_0.1.png
+│       │   │   │   │   │       ├── energy_comparison_1_1_1_0.1.png
+│       │   │   │   │   │       └── energy_comparison_1_2_1_0.1.png
+│       │   │   │   │   └── r_t_comparison_plots
+│       │   │   │   │       ├── comparison_plots_0.1_0_1_0.1.png
+│       │   │   │   │       ├── comparison_plots_1_0_0.1_0.1.png
+│       │   │   │   │       ├── comparison_plots_10_0_1_0.1.png
+│       │   │   │   │       ├── comparison_plots_1_0_1_0.001.png
+│       │   │   │   │       ├── comparison_plots_1_0_1_0.01.png
+│       │   │   │   │       ├── comparison_plots_1_0_10_0.1.png
+│       │   │   │   │       ├── comparison_plots_1_0.5_1_0.1.png
+│       │   │   │   │       ├── comparison_plots_1_1_1_0.1.png
+│       │   │   │   │       ├── r_t_comparison_m0.1_H0_r1_J0.1.png
+│       │   │   │   │       ├── r_t_comparison_m10_H0_r1_J0.1.png
+│       │   │   │   │       ├── r_t_comparison_m1_H0.5_r1_J0.1.png
+│       │   │   │   │       ├── r_t_comparison_m1_H0_r0.1_J0.1.png
+│       │   │   │   │       ├── r_t_comparison_m1_H0_r10_J0.1.png
+│       │   │   │   │       ├── r_t_comparison_m1_H0_r1_J0.001.png
+│       │   │   │   │       ├── r_t_comparison_m1_H0_r1_J0.01.png
+│       │   │   │   │       └── r_t_comparison_m1_H1_r1_J0.1.png
+│       │   │   │   ├── r_t_comparison_plots
+│       │   │   │   │   ├── comparison_plots_0.1_0_1_0.1.png
+│       │   │   │   │   ├── comparison_plots_1_0_0.1_0.1.png
+│       │   │   │   │   ├── comparison_plots_10_0_1_0.1.png
+│       │   │   │   │   ├── comparison_plots_1_0.5_1_0.1.png
+│       │   │   │   │   └── comparison_plots_1_1_1_0.1.png
+│       │   │   │   ├── test_kepler_0.1_0_1_0.1.h5
+│       │   │   │   ├── test_kepler_1_0_0.1_0.1.h5
+│       │   │   │   ├── test_kepler_10_0_1_0.1.h5
+│       │   │   │   ├── test_kepler_1_0_1_0.01.h5
+│       │   │   │   ├── test_kepler_1_0_10_0.1.h5
+│       │   │   │   ├── test_kepler_1_0.5_1_0.1.h5
+│       │   │   │   ├── test_kepler_1_1_1_0.1.h5
+│       │   │   │   └── test_kepler_1_2_1_0.1.h5
+│       │   │   ├── tests_bh.py
+│       │   │   ├── tests.py
+│       │   │   └── utils.py
+│       │   ├── testing.h5
+│       │   └── tests
+│       ├── notebooks
+│       │   ├── symp5_fixed.ipynb
+│       │   ├── symp6.html
+│       │   ├── symp6.ipynb
+│       │   ├── symplectic3.ipynb
+│       │   ├── symplectic4.ipynb
+│       │   └── thesis_plots.ipynb
+│       ├── __pycache__
+│       │   ├── collapse.cpython-37.pyc
+│       │   └── simulation_strategies.cpython-37.pyc
+│       ├── README.md
+│       └── src
+│           ├── collapse.py
+│           ├── plotting.py
+│           ├── __pycache__
+│           │   ├── collapse.cpython-37.pyc
+│           │   └── simulation_strategies.cpython-37.pyc
+│           ├── simulation_strategies.py
+│           └── utils.py
+├── PhySO
+│   ├── benchmarking
+│   │   ├── FeynmanBenchmark
+│   │   │   ├── feynman_config.py
+│   │   │   ├── feynman_dataset_inspection.ipynb
+│   │   │   ├── feynman_make_run_file.py
+│   │   │   ├── feynman_results_analysis.py
+│   │   │   ├── feynman_run_efficiency_curve.py
+│   │   │   ├── feynman_run.py
+│   │   │   ├── readme.md
+│   │   │   └── results
+│   │   │       ├── feynman_results.png
+│   │   │       ├── noise0.000
+│   │   │       │   ├── results_detailed.csv
+│   │   │       │   ├── results_stats.txt
+│   │   │       │   └── results_summary.csv
+│   │   │       ├── noise0.001
+│   │   │       │   ├── results_detailed.csv
+│   │   │       │   ├── results_stats.txt
+│   │   │       │   └── results_summary.csv
+│   │   │       ├── noise0.010
+│   │   │       │   ├── results_detailed.csv
+│   │   │       │   ├── results_stats.txt
+│   │   │       │   └── results_summary.csv
+│   │   │       └── noise0.100
+│   │   │           ├── results_detailed.csv
+│   │   │           ├── results_stats.txt
+│   │   │           └── results_summary.csv
+│   │   └── utils.py
+│   ├── demos
+│   │   ├── demos_natural_const_discovery
+│   │   │   ├── demo_classical_gravity
+│   │   │   │   ├── demo_classical_gravity.ipynb
+│   │   │   │   └── demo_classical_gravity.py
+│   │   │   ├── demo_ideal_gas_law
+│   │   │   │   ├── demo_ideal_gas_law.ipynb
+│   │   │   │   └── demo_ideal_gas_law.py
+│   │   │   ├── demo_planck_law_nphotons
+│   │   │   │   ├── demo_planck_law_nphotons.ipynb
+│   │   │   │   └── demo_planck_law_nphotons.py
+│   │   │   ├── demo_terminal_velocity
+│   │   │   │   └── demo_terminal_velocity.py
+│   │   │   └── demo_wave_interferences
+│   │   │       └── demo_wave_interferences.py
+│   │   └── demos_sr
+│   │       ├── demo_damped_harmonic_oscillator
+│   │       │   ├── demo_damped_harmonic_oscillator.ipynb
+│   │       │   └── demo_damped_harmonic_oscillator.py
+│   │       ├── demo_mechanical_energy
+│   │       │   ├── demo_mechanical_energy.ipynb
+│   │       │   └── demo_mechanical_energy.py
+│   │       ├── demo_quick_sr.ipynb
+│   │       └── demo_quick_sr.py
+│   ├── docs
+│   │   ├── assets
+│   │   │   ├── demo_light.mp4
+│   │   │   ├── feynman_results.gif
+│   │   │   ├── logo_dark.png
+│   │   │   ├── logo_doc.png
+│   │   │   ├── logo.png
+│   │   │   └── physo_parallel_efficiency_padded.png
+│   │   ├── make.bat
+│   │   ├── Makefile
+│   │   ├── make_repo_readme.sh
+│   │   ├── readme_doc.md
+│   │   ├── requirements.txt
+│   │   └── source
+│   │       ├── conf.py
+│   │       ├── doc_getting_started_header.md
+│   │       ├── doc_getting_started_sr.md
+│   │       ├── doc_header.md
+│   │       ├── doc_installation.md
+│   │       ├── doc_logo_dark.md
+│   │       ├── doc_logo.md
+│   │       ├── doc_performances.md
+│   │       ├── doc_presentation_readme.md
+│   │       ├── doc_presentation_rtd.rst
+│   │       ├── doc_reference.md
+│   │       ├── doc_sr_plus.md
+│   │       ├── doc_title.md
+│   │       ├── index.rst
+│   │       ├── r_getting_started.rst
+│   │       ├── r_installation.rst
+│   │       ├── r_performances.rst
+│   │       ├── r_reference.rst
+│   │       ├── r_reproducibility.rst
+│   │       └── r_sr.rst
+│   ├── LICENSE
+│   ├── physo
+│   │   ├── benchmark
+│   │   │   ├── FeynmanDataset
+│   │   │   │   ├── BonusEquations.csv
+│   │   │   │   ├── FeynmanEquations.csv
+│   │   │   │   ├── FeynmanProblem.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── FeynmanProblem.cpython-37.pyc
+│   │   │   │   │   └── __init__.cpython-37.pyc
+│   │   │   │   ├── tests
+│   │   │   │   │   ├── FeynmanProblem_UnitTest.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   └── __pycache__
+│   │   │   │   │       ├── FeynmanProblem_UnitTest.cpython-37.pyc
+│   │   │   │   │       └── __init__.cpython-37.pyc
+│   │   │   │   └── units.csv
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── __init__.cpython-37.pyc
+│   │   │   └── utils
+│   │   │       ├── __init__.py
+│   │   │       ├── metrics_utils.py
+│   │   │       ├── __pycache__
+│   │   │       │   ├── __init__.cpython-37.pyc
+│   │   │       │   ├── metrics_utils.cpython-37.pyc
+│   │   │       │   ├── read_logs.cpython-37.pyc
+│   │   │       │   ├── symbolic_utils.cpython-37.pyc
+│   │   │       │   └── timeout_unix.cpython-37.pyc
+│   │   │       ├── read_logs.py
+│   │   │       ├── symbolic_utils.py
+│   │   │       └── timeout_unix.py
+│   │   ├── config
+│   │   │   ├── config0.py
+│   │   │   ├── config1.py
+│   │   │   ├── __init__.py
+│   │   │   └── __pycache__
+│   │   │       ├── config0.cpython-37.pyc
+│   │   │       ├── config1.cpython-37.pyc
+│   │   │       └── __init__.cpython-37.pyc
+│   │   ├── __init__.py
+│   │   ├── learn
+│   │   │   ├── __init__.py
+│   │   │   ├── learn.py
+│   │   │   ├── loss.py
+│   │   │   ├── monitoring.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-37.pyc
+│   │   │   │   ├── learn.cpython-37.pyc
+│   │   │   │   ├── loss.cpython-37.pyc
+│   │   │   │   ├── monitoring.cpython-37.pyc
+│   │   │   │   └── rnn.cpython-37.pyc
+│   │   │   └── rnn.py
+│   │   ├── physym
+│   │   │   ├── batch.py
+│   │   │   ├── dataset.py
+│   │   │   ├── dimensional_analysis.py
+│   │   │   ├── execute.py
+│   │   │   ├── free_const.py
+│   │   │   ├── functions.py
+│   │   │   ├── __init__.py
+│   │   │   ├── library.py
+│   │   │   ├── prior.py
+│   │   │   ├── program.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── batch.cpython-37.pyc
+│   │   │   │   ├── dataset.cpython-37.pyc
+│   │   │   │   ├── dimensional_analysis.cpython-37.pyc
+│   │   │   │   ├── execute.cpython-37.pyc
+│   │   │   │   ├── free_const.cpython-37.pyc
+│   │   │   │   ├── functions.cpython-37.pyc
+│   │   │   │   ├── __init__.cpython-37.pyc
+│   │   │   │   ├── library.cpython-37.pyc
+│   │   │   │   ├── prior.cpython-37.pyc
+│   │   │   │   ├── program.cpython-37.pyc
+│   │   │   │   ├── reward.cpython-37.pyc
+│   │   │   │   └── token.cpython-37.pyc
+│   │   │   ├── reward.py
+│   │   │   ├── tests
+│   │   │   │   ├── batch_UnitTest.py
+│   │   │   │   ├── dataset_UnitTest.py
+│   │   │   │   ├── dimensional_analysis_UnitTest.py
+│   │   │   │   ├── execute_UnitParallelTest.py
+│   │   │   │   ├── execute_UnitTest.py
+│   │   │   │   ├── free_const_UnitTest.py
+│   │   │   │   ├── functions_UnitTest.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── library_UnitTest.py
+│   │   │   │   ├── prior_UnitTest.py
+│   │   │   │   ├── program_display_UnitTest.py
+│   │   │   │   ├── program_UnitTest.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── batch_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── dataset_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── dimensional_analysis_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── execute_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── free_const_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── functions_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── __init__.cpython-37.pyc
+│   │   │   │   │   ├── library_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── prior_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── program_display_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── program_UnitTest.cpython-37.pyc
+│   │   │   │   │   ├── reward_UnitTest.cpython-37.pyc
+│   │   │   │   │   └── token_UnitTest.cpython-37.pyc
+│   │   │   │   ├── reward_UnitTest.py
+│   │   │   │   └── token_UnitTest.py
+│   │   │   └── token.py
+│   │   ├── __pycache__
+│   │   │   └── __init__.cpython-37.pyc
+│   │   └── task
+│   │       ├── benchmark.py
+│   │       ├── fit.py
+│   │       ├── __init__.py
+│   │       ├── optimize.py
+│   │       ├── __pycache__
+│   │       │   ├── benchmark.cpython-37.pyc
+│   │       │   ├── fit.cpython-37.pyc
+│   │       │   ├── __init__.cpython-37.pyc
+│   │       │   ├── optimize.cpython-37.pyc
+│   │       │   └── sr.cpython-37.pyc
+│   │       ├── sr.py
+│   │       └── tests
+│   │           ├── __init__.py
+│   │           ├── __pycache__
+│   │           │   ├── __init__.cpython-37.pyc
+│   │           │   └── sr_UnitTest.cpython-37.pyc
+│   │           └── sr_UnitTest.py
+│   ├── physo.egg-info
+│   │   ├── dependency_links.txt
+│   │   ├── PKG-INFO
+│   │   ├── SOURCES.txt
+│   │   └── top_level.txt
+│   ├── README.md
+│   ├── requirements_display1.txt
+│   ├── requirements_display2.txt
+│   ├── requirements.txt
+│   └── setup.py
+├── points.h5
+├── points.npz
+├── __pycache__
+│   ├── calc_fstar.cpython-37.pyc
+│   ├── calc_xi.cpython-37.pyc
+│   ├── create_mf.cpython-37.pyc
+│   ├── dust_correction.cpython-37.pyc
+│   ├── ionized_fraction.cpython-37.pyc
+│   ├── my_funcs.cpython-37.pyc
+│   ├── myfuncs.cpython-37.pyc
+│   └── run_emcee.cpython-37.pyc
+├── r_t.pdf
+├── run_emcee.py
+├── sanitize_nb.py
+├── scripts
+│   ├── collate_pts_errs.py
+│   ├── create_fstar.py
+│   ├── fstar_bands.py
+│   ├── fstars_from_mcmc.py
+│   ├── phi_optimize.py
+│   ├── plot_fit.py
+│   ├── __pycache__
+│   │   ├── fstar_bands.cpython-37.pyc
+│   │   └── plot_fit.cpython-37.pyc
+│   ├── run_chi_flat_trunc.py
+│   └── run_mcmc.py
+├── simplify
+│   ├── collapse_files
+│   │   ├── collapse_test_100_1e-05_0.01_0_0_True
+│   │   │   ├── rs.npy
+│   │   │   └── times.npy
+│   │   ├── collapse_test_100_1e-05_0.1_0_0_True
+│   │   │   ├── rs.npy
+│   │   │   └── times.npy
+│   │   ├── collapse_test_100_1e-05_0.5_0_0_True
+│   │   │   ├── rs.npy
+│   │   │   └── times.npy
+│   │   ├── collapse_test_100_1e-06_0.1_0_0_True
+│   │   │   ├── rs.npy
+│   │   │   └── times.npy
+│   │   ├── collapse_test_100_1e-06_0.1_0.1_0_True
+│   │   │   ├── rs.npy
+│   │   │   └── times.npy
+│   │   ├── collapse_test_100_1e-06_0.5_0_0_True
+│   │   │   ├── rs.npy
+│   │   │   └── times.npy
+│   │   ├── collapse_test_100_5e-07_0.1_0.05_0_True
+│   │   └── old
+│   │       ├── collapse_test_102_1e-05_0.1_0_0_True.npz
+│   │       ├── collapse_test_102_1e-05_0.5_0_0_True.npz
+│   │       ├── collapse_test_102_1e-06_0.5_0_0_True.npz
+│   │       └── collapse_test_102_5e-07_0.01_0_0_True.npz
+│   ├── collapse.py
+│   ├── collapse_test_102_10_0.npz
+│   ├── collapse_test_102_1e+01_1.0e-03.npz
+│   ├── collate_points.py
+│   ├── dir_for_each_model.py
+│   ├── dust_correction.py
+│   ├── jefferys_prior_inv.npz
+│   ├── jefferys_prior_logspace.npz
+│   ├── lf
+│   │   ├── 15
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── 1522
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── 21
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── 2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── by_name
+│   │   │   ├── dwn_meas.npz
+│   │   │   ├── FiducialCLF
+│   │   │   │   ├── 68
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   ├── meas_sum_sigmas012.npz
+│   │   │   │   ├── meas_sum_sigmas012.npz.npy
+│   │   │   │   └── old_half_normal_chi
+│   │   │   │       ├── best.npy
+│   │   │   │       └── mcmc.h5
+│   │   │   ├── FiducialCLF_21
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FiducialCLF_21_w22
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FiducialCLF_down
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       ├── mcmc.h5
+│   │   │   │       └── meas.npz
+│   │   │   ├── FiducialCLF_old_prior
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FiducialCLF_old_prior21
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FiducialCLF_up
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       ├── mcmc.h5
+│   │   │   │       └── meas.npz
+│   │   │   ├── FlatteningCLF
+│   │   │   │   ├── 68
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       └── mcmc.h5
+│   │   │   ├── FlatteningCLF_down
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       ├── mcmc.h5
+│   │   │   │       └── meas.npz
+│   │   │   ├── FlatteningCLF_up
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   ├── FuzzyAt_1
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FuzzyAt_10
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FuzzyAt_5
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FuzzyCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── mcmc_upto10.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FuzzyJefferysCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── FuzzySharpkCLF
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── MarshCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── 100mcmc.h5_old_barrier
+│   │   │   │       ├── best.npy
+│   │   │   │       ├── best.npy_old_barrier
+│   │   │   │       ├── fix_params_20_10_5.npy_old_barrier
+│   │   │   │       ├── mcmc.h5
+│   │   │   │       └── mcmc.h5_old_barrier
+│   │   │   ├── meas.npz
+│   │   │   ├── meas_wo_z6M1525.npz
+│   │   │   ├── old_webb_meas.npz
+│   │   │   ├── PiecewiseZEvolutionCLF_2.5
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── webb.npz
+│   │   │   ├── PiecewiseZEvolutionCLF_5
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── webb.npz
+│   │   │   ├── PiecewiseZEvolutionCLF_r
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── webb.npz
+│   │   │   ├── ReciprocalFuzzy20CLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── ReciprocalFuzzyCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── fix_params_10_15_30.npy
+│   │   │   │   ├── fix_params_1_3_10.npy
+│   │   │   │   ├── fix_params_20_10_5.npy
+│   │   │   │   ├── fix_params_5_3_1.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   ├── old
+│   │   │   │   │   ├── best.npy
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── tots_and_loglikes21.npz
+│   │   │   │   ├── tots_and_loglikes22.npz
+│   │   │   │   ├── tots_and_loglikes_fsolve.npz
+│   │   │   │   └── tots_and_loglikes.npz
+│   │   │   ├── ReciprocalFuzzyCLF_21
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── ReciprocalFuzzyJefferysCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── ReciprocalFuzzyTwiceChiCLF
+│   │   │   │   └── meas.npz
+│   │   │   ├── ShallowFuzzy20CLF
+│   │   │   │   ├── best.npy
+│   │   │   │   └── meas.npz
+│   │   │   ├── ShallowFuzzyCLF
+│   │   │   │   ├── fix_params_0to5.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── mcmc.h5_old_priors
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       └── mcmc.h5
+│   │   │   ├── ShallowFuzzyMarsh20CLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── ShallowFuzzyMarshCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── fix_params_0to5.npy
+│   │   │   │   ├── inv_log_spacing.npz
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   ├── old
+│   │   │   │   │   ├── best.npy
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── old_spacing_mcmc.h5
+│   │   │   │   └── vanilla_moves_mcmc.h5
+│   │   │   ├── ShallowingCLF
+│   │   │   │   ├── 68
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       └── mcmc.h5
+│   │   │   ├── ShallowingCLF_down
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       ├── mcmc.h5
+│   │   │   │       └── meas.npz
+│   │   │   ├── ShallowingCLF_up
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       ├── mcmc.h5
+│   │   │   │       └── meas.npz
+│   │   │   ├── SharpkCLF
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── StepDutyCLF
+│   │   │   │   ├── 68
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       └── mcmc.h5
+│   │   │   ├── StepDutyCLF_down
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── StepDutyCLF_up
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── StepScatterCLF
+│   │   │   │   ├── 68
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   │       ├── best.npy
+│   │   │   │       └── mcmc.h5
+│   │   │   ├── StepScatterCLF_down
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── StepScatterCLF_up
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── test.mcmc_generic.err
+│   │   │   ├── test.mcmc_generic.out
+│   │   │   ├── TruncateAt5e9CLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── TruncateAt5e9CLF_wo
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── TruncateAtFlatScaleCLF
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── TruncateAtFlatScaleCLF_wo
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── TruncatingCLF
+│   │   │   │   ├── 68
+│   │   │   │   │   └── mcmc.h5
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   ├── meas.npz
+│   │   │   │   └── old
+│   │   │   ├── TruncatingCLF_down
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── TruncatingCLF_wo
+│   │   │   │   ├── best.npy
+│   │   │   │   ├── mcmc.h5
+│   │   │   │   └── meas.npz
+│   │   │   ├── up_meas.npz
+│   │   │   ├── webb.npz
+│   │   │   └── webb_redux2.npz
+│   │   ├── duty_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── duty_step_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── fdm_21
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── fdm_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── figs
+│   │   │   ├── big_nion2.pdf
+│   │   │   ├── big_nion.pdf
+│   │   │   ├── corner.pdf
+│   │   │   ├── correlation.pdf
+│   │   │   ├── dnion_dlnM_linear.pdf
+│   │   │   ├── dnion_dlnM_log.pdf
+│   │   │   ├── dnion_dlnM.pdf
+│   │   │   ├── fdm
+│   │   │   │   ├── compare_mass_fns.pdf
+│   │   │   │   ├── compare.pdf
+│   │   │   │   ├── corner.pdf
+│   │   │   │   ├── corner_src.pdf
+│   │   │   │   ├── correlation.pdf
+│   │   │   │   ├── cumulative.pdf
+│   │   │   │   ├── dndlnM_fdm.pdf
+│   │   │   │   ├── fixedm22_phi.pdf
+│   │   │   │   ├── mass_fns.pdf
+│   │   │   │   ├── posterior.pdf
+│   │   │   │   ├── summary.pdf
+│   │   │   │   └── uvlf.pdf
+│   │   │   ├── f_star_alt2.pdf
+│   │   │   ├── f_star_alt.pdf
+│   │   │   ├── f_star.pdf
+│   │   │   ├── f_star_w_tilde.pdf
+│   │   │   ├── LM.pdf
+│   │   │   ├── None.pdf
+│   │   │   ├── n_ratio2.pdf
+│   │   │   ├── n_ratio3.pdf
+│   │   │   ├── n_ratio.pdf
+│   │   │   ├── phi_m3.pdf
+│   │   │   ├── phi_m4.pdf
+│   │   │   ├── phi_m5.pdf
+│   │   │   ├── phi_m.pdf
+│   │   │   ├── phi_m_webb.pdf
+│   │   │   ├── ppt
+│   │   │   │   ├── big_N.png
+│   │   │   │   ├── f_star_68.png
+│   │   │   │   ├── f_star_main.png
+│   │   │   │   ├── LM.png
+│   │   │   │   ├── n_ratio.png
+│   │   │   │   ├── phi_2122.png
+│   │   │   │   ├── phi_21.png
+│   │   │   │   ├── phi_21pts.png
+│   │   │   │   ├── phi_21w22.png
+│   │   │   │   ├── phi_main.png
+│   │   │   │   ├── rho.png
+│   │   │   │   ├── tau_e.png
+│   │   │   │   ├── webb1.png
+│   │   │   │   ├── webb2.png
+│   │   │   │   ├── webb3.png
+│   │   │   │   ├── webb.png
+│   │   │   │   └── xi.png
+│   │   │   ├── ppt_LM.pdf
+│   │   │   ├── ppt_phi_2122.png.pdf
+│   │   │   ├── ppt_phi_21.png.pdf
+│   │   │   ├── ppt_phi_21w22.png.pdf
+│   │   │   ├── ppt_phi_main.png.pdf
+│   │   │   ├── rho2.pdf
+│   │   │   ├── rho.pdf
+│   │   │   ├── tau_e.pdf
+│   │   │   ├── trunc_f_star.pdf
+│   │   │   ├── trunc_phi_m.pdf
+│   │   │   ├── trunc_UVLF.pdf
+│   │   │   ├── webb2.pdf
+│   │   │   ├── webb.pdf
+│   │   │   ├── xi2.pdf
+│   │   │   └── xi.pdf
+│   │   ├── flat_1522
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── flat_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── intensity.py
+│   │   ├── marsh_mf
+│   │   │   ├── inv_log_spacing500.npz
+│   │   │   ├── inv_log_spacing500_to_z20.npz
+│   │   │   └── old_barrier
+│   │   │       ├── inv_log_spacing100.npz
+│   │   │       ├── inv_log_spacing500.npz
+│   │   │       ├── inv_log_spacing.npz
+│   │   │       ├── inv_spacing.npz
+│   │   │       └── old_ils.npz
+│   │   ├── pts_errs_21.npz
+│   │   ├── pts_errs_22.npz
+│   │   ├── pts_errs_bwebb.npz
+│   │   ├── scatter_21
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── scatter_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── scatter_step_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── shallow_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── ShallowingCLFbest.npy
+│   │   ├── sharpk_mf
+│   │   │   └── sharpk_inv_log_spacing500_to_z20.npz
+│   │   ├── shift_dwn2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   ├── meas.npz
+│   │   │   └── meas_unshifted.npz
+│   │   ├── shift_dwn_flat_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── shift_dwn_shallow_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── shift_up2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   ├── meas.npz
+│   │   │   └── meas_unshifted.npz
+│   │   ├── trunc_1522
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── trunc_2122
+│   │   │   ├── best.npy
+│   │   │   ├── mcmc.h5
+│   │   │   └── meas.npz
+│   │   ├── webb.npz
+│   │   ├── webb_redux
+│   │   │   ├── best.npy
+│   │   │   └── meas.npz
+│   │   ├── webb_redux2_collated.npz
+│   │   ├── webb_redux2.npz
+│   │   ├── webb_redux3_collated.npz
+│   │   ├── webb_redux3.npz
+│   │   ├── webb_redux_FIXED_collated.npz
+│   │   ├── webb_redux_fixed.npz
+│   │   └── webb_redux.npz
+│   ├── lf_model.py
+│   ├── lf_optimizer.py
+│   ├── lf_plotter.py
+│   ├── likelihood_of_sums.py
+│   ├── mass_fns2.npz
+│   ├── mass_fns_FDM_1e21.npz
+│   ├── mass_fns_FDM_1e22.npz
+│   ├── mass_fns.npz
+│   ├── mass_fns_Schive_FDM_1e21.npz
+│   ├── mass_fns_Schive_FDM_1e22.npz
+│   ├── mass_fns_Schive_FDM_5e21.npz
+│   ├── mass_fns_sharpk_m22_10.npz
+│   ├── mass_fns_sharpk_m22_15.npz
+│   ├── mass_fns_sharpk_m22_1.npz
+│   ├── mass_fns_sharpk_m22_5.npz
+│   ├── mass_fns_sharpk.npz
+│   ├── mass_function.py
+│   ├── mcmc.py
+│   ├── note_8000_seconds.txt
+│   ├── P_k.npz
+│   ├── populate_fdm_mfs.py
+│   ├── project.py
+│   ├── __pycache__
+│   │   ├── collapse.cpython-37.pyc
+│   │   ├── dust_correction.cpython-37.pyc
+│   │   ├── lf_model.cpython-37.pyc
+│   │   ├── lf_optimizer.cpython-37.pyc
+│   │   ├── lf_plotter.cpython-37.pyc
+│   │   ├── lf_plotter.cpython-37.pyc.46913439576224
+│   │   ├── mass_function.cpython-37.pyc
+│   │   ├── model.cpython-37.pyc
+│   │   ├── optimizer.cpython-37.pyc
+│   │   ├── project.cpython-37.pyc
+│   │   ├── spherical_collapse.cpython-37.pyc
+│   │   └── utils.cpython-37.pyc
+│   ├── spherical_collapse.py
+│   ├── test.mcmc_generic.err
+│   ├── test.mcmc_generic.out
+│   └── utils.py
+├── src
+│   └── plotting.py
+├── thesis
+│   ├── black_hole.h5
+│   ├── black_hole_menc.pdf
+│   ├── black_hole_traj.pdf
+│   ├── fdm_density2.pdf
+│   ├── fdm_density.pdf
+│   ├── fdm_traj.pdf
+│   ├── kepler_not_symplectic-11-16-1.h5
+│   ├── kepler_not_symplectic2.h5
+│   ├── kepler_not_symplectic3.h5
+│   ├── kepler_not_symplectic4.h5
+│   ├── kepler_not_symplectic.h5
+│   ├── kepler_symplectic-11-16-1.h5
+│   ├── kepler_symplectic2.h5
+│   ├── kepler_symplectic3.h5
+│   ├── kepler_symplectic.h5
+│   ├── power_law2.h5
+│   ├── power_law3.h5
+│   ├── power_law.h5
+│   ├── profile_menc.pdf
+│   ├── profile_selfsim_traj.pdf
+│   ├── profile_traj.pdf
+│   ├── symplectic2.pdf
+│   ├── symplectic.pdf
+│   ├── tophat_collapse.h5
+│   ├── tophat.h5
+│   ├── tophat_selfsim.pdf
+│   └── tophat_traj.pdf
+├── tmp
+│   └── scollas
+│       ├── cosmo_bck.py
+│       ├── examples.py
+│       ├── __pycache__
+│       │   ├── cosmo_bck.cpython-37.pyc
+│       │   └── spherical_collapse.cpython-37.pyc
+│       ├── README.md
+│       └── spherical_collapse.py
+└── tree.txt
+
+213 directories, 1847 files
