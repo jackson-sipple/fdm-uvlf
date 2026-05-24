@@ -80,7 +80,7 @@ class LFPlotter:
             print('best_fit', x0)
         lf_optimizer.run_optimize(directories=[model_dir], x0=x0, ModelClass=model_class, maxfev=maxfev, maxiter=maxiter)
 
-    def save_fig(self, fn, fig_dir='../simplify/lf/figs/', png=False):
+    def save_fig(self, fn, fig_dir='figs/', png=False):
         if png:
             plt.savefig('{}/{}.png'.format(fig_dir, fn))
         else:
@@ -560,9 +560,9 @@ class LFPlotter:
         if show_Ma:
             def plot_helper(ax):
                 lo_x, lo_y = utils.load_csv(
-                    '../digitized_plots/Ma18_fig4/Ma18_fig4_z6_lower.csv')
+                    'digitized_plots/Ma18_fig4/Ma18_fig4_z6_lower.csv')
                 hi_x, hi_y = utils.load_csv(
-                    '../digitized_plots/Ma18_fig4/Ma18_fig4_z6_upper.csv')
+                    'digitized_plots/Ma18_fig4/Ma18_fig4_z6_upper.csv')
                 ax.plot(10**lo_x, 10**lo_y, color='red', ls='-.')
                 ax.plot(10**hi_x, 10**hi_y, color='red',
                         ls='-.', label=r'Ma18 $1\sigma$')

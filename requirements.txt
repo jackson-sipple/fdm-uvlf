@@ -1,0 +1,8 @@
+numpy
+scipy>=1.7,<1.14
+matplotlib
+astropy
+emcee>=3
+corner
+h5py
+camb

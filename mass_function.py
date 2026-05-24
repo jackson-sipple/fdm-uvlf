@@ -11,7 +11,7 @@ import scipy.signal as sps
 import scipy.special
 
 class MassFunction2:
-    def __init__(self, camb_fn='../simplify/P_k.npz', load=True, m22=0, is_marsh=False):
+    def __init__(self, camb_fn='P_k.npz', load=True, m22=0, is_marsh=False):
         if not load:
             raise NotImplementedError
         arr = np.load(camb_fn)
@@ -63,7 +63,7 @@ class MassFunction2:
 
 
 class MassFunction:
-    def __init__(self, camb_fn='../simplify/P_k.npz', load=True, m_FDM=0, is_marsh=False, window='top hat', fdm_growth=False):
+    def __init__(self, camb_fn='P_k.npz', load=True, m_FDM=0, is_marsh=False, window='top hat', fdm_growth=False):
         if not load:
             pars = camb.CAMBparams()
             #This function sets up CosmoMC-like settings, with one massive neutrino and helium set using BBN consistency
@@ -83,7 +83,7 @@ class MassFunction:
             k = kh * utils.LITTLE_H
             Pk_0 = pk[0] / utils.LITTLE_H**3
             s8 = results.get_sigma8()
-            np.savez('../simplify/P_k.npz', k=k, Pk_0=Pk_0, sigma_8=s8)
+            np.savez('P_k.npz', k=k, Pk_0=Pk_0, sigma_8=s8)
         else:
             arr = np.load(camb_fn)
             k, Pk_0, s8 = arr['k'], arr['Pk_0'], arr['sigma_8']

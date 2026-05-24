@@ -72,27 +72,9 @@ def my_mpl():
     plt.rc('figure', figsize=[16, 9])
 
 
-MF_FN = "../np_files/mass_fns.npz"
-MF_FN_NEW = "mass_fns.npz"
+MF_FN = "mass_fns.npz"
 
-# def load_mf(fn=MF_FN_NEW):
-#     mf = np.load(fn)
-#     Mvals = mf['Mvals']
-#     mass_fns = {}
-#     for z in mf.files:
-#         if z[1:].isnumeric():  # skip mf['Mvals']
-#             if z[1:] == '1375':
-#                 new_z = 13.75
-#             else:
-#                 new_z = int(z[1:])
-#         elif z[1:] == '13.75':
-#             new_z = float(z[1:])
-#         else:
-#             continue
-#         mass_fns[new_z] = loglog_interp(Mvals, mf[z])
-#     return mass_fns
-
-def load_mf(fn=MF_FN_NEW):
+def load_mf(fn=MF_FN):
     mf = dict(np.load(fn))
     mass_fns = dict()
     Mvals = mf['Mvals']

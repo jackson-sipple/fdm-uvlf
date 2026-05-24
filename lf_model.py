@@ -7,8 +7,6 @@ from collections import defaultdict
 import scipy
 from astropy import constants as const, units as u
 import warnings
-import sys
-sys.path.append('../')
 import mass_function
 
 
@@ -590,7 +588,7 @@ class SharpkCLF(FiducialCLF):
 
     def __init__(self, meas_fn, params, dc=True, name=None, f_esc=0.2, log_input=True):
         super().__init__(meas_fn, params, dc, name, f_esc)
-        self.mass_fn = utils.load_mf('../simplify/mass_fns_sharpk.npz')
+        self.mass_fn = utils.load_mf('mass_fns_sharpk.npz')
 
 class FlatteningCLF(LFModel):
     N_PARAMS = 6
@@ -1074,7 +1072,7 @@ class ShallowFuzzy20CLF(LFModel):
 class ShallowFuzzyMarshCLF(ShallowFuzzyCLF):
     def __init__(self, meas_fn, params, dc=True, name=None, f_esc=0.2, log_input=True):
         super().__init__(meas_fn, params, dc, name, f_esc, log_input)
-        self.sample_fn = '../simplify/lf/marsh_mf/inv_log_spacing100.npz'
+        self.sample_fn = 'lf/marsh_mf/inv_log_spacing100.npz'
         self.mass_fn = self.create_marsh_mf()
 
     def create_marsh_mf_manually(self, z):
@@ -1150,7 +1148,7 @@ class MarshCLF(LFModel):
             self.M1 = 10**self.M1
         
         self.m_FDM22 = 1/self.one_over_m_FDM22
-        self.sample_fn = '../simplify/lf/marsh_mf/inv_log_spacing500_to_z20.npz'
+        self.sample_fn = 'lf/marsh_mf/inv_log_spacing500_to_z20.npz'
         self.mass_fn = self.create_marsh_mf()
 
     def to_log_input(self):
@@ -1235,7 +1233,7 @@ class FuzzySharpkCLF(LFModel):
             self.M1 = 10**self.M1
         
         self.m_FDM22 = 1/self.one_over_m_FDM22
-        self.sample_fn = '../simplify/lf/sharpk_mf/sharpk_inv_log_spacing500_to_z20.npz'
+        self.sample_fn = 'lf/sharpk_mf/sharpk_inv_log_spacing500_to_z20.npz'
         self.mass_fn = self.create_sharpk_mf()
 
     def to_log_input(self):
@@ -1300,7 +1298,7 @@ class FuzzySharpkCLF(LFModel):
 class ShallowFuzzyMarsh20CLF(ShallowFuzzy20CLF):
     def __init__(self, meas_fn, params, dc=True, name=None, f_esc=0.2, log_input=True):
         super().__init__(meas_fn, params, dc, name, f_esc, log_input)
-        self.sample_fn = '../simplify/lf/marsh_mf/inv_log_spacing.npz'
+        self.sample_fn = 'lf/marsh_mf/inv_log_spacing.npz'
         self.mass_fn = self.create_marsh_mf()
 
     def create_marsh_mf(self):
