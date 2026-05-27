@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#SBATCH -J mcmc
+#SBATCH -e test."%x".err
+#SBATCH -o test."%x".out
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=jsipple@sas.upenn.edu
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+
+python3.7 -c "import lf_optimizer, lf_model; lf_optimizer.run_mcmc(['lf/fdm_21/', 'lf/fdm_2122/'], lf_model.FuzzyCLF, reset=False x0=lf_optimizer.B15_X0_FDM_BIGP, prior=lf_optimizer.FDM_PRIOR)"
